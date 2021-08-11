@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahi Tukda 🍲</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #d2bfc4;
+      }
+      h1 {
+        text-align: center;
+        color: navy;
+      }
+
+      h2 {
+        text-align: center;
+        border: 1px solid navy;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 4px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 13px;
+        margin: 20px 0 10px;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: navy;
+        color: white;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+        background-image: linear-gradient(
+          to right,
+          teal,
+          salmon,
+          lightgreen,
+          pink,
+          pink,
+          lightgreen,
+          salmon,
+          teal
+        );
+      }
+
+      .learn-more {
+        color: navy;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>I love Sweets</h1>
+      <h2>Especially Shahi Tukda</h2>
+      <img
+        src="https://i2.wp.com/aartimadan.com/wp-content/uploads/2018/10/Shahi-Tukda-Recipe.jpg?w=750&ssl=1"
+        alt="Double ka Meetha"
+      />
+      <p>
+        Double ka meetha is a bread pudding Indian sweet of fried bread slices
+        soaked in hot milk with spices, including saffron and cardamom. Double
+        ka meetha is a dessert of Hyderabad State. It is popular in Hyderabadi
+        cuisine, served at weddings and parties. Double ka meetha refers to the
+        milk bread, called "double roti" in the local Indian dialects because it
+        swells up to almost double its original size after baking.
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Double_ka_meetha"
+        target="_blank"
+        class="learn-more"
+      >
+        Learn more on Wikipedia
+      </a>
+      <button class="buy-button">👉 Buy Shahi Tukda</button>
+      <p class="footer">
+        This page was built by
+        <a href="https://umng01.github.io/Portfolio" target="_blank">
+          Umang Sharma</a
+        >
+      </p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        alert(
+          "Thank you, " +
+            name +
+            "! We'll be in touch by email, meanwhile have lot of Yogurt! "
+        );
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
