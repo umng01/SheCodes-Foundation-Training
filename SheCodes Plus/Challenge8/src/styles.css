@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  color: aqua;
+  font-weight: 900;
+  margin: 0;
+  font-size: 36px;
+  line-height: 48px;
+}
+i {
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+}
+.globe {
+  color: blue;
+}
+.moon {
+  color: black;
+}
+.astro {
+  color: rgb(83, 79, 79);
+}
