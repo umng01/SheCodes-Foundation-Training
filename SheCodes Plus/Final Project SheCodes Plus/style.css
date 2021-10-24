@@ -51,15 +51,17 @@ li:first-letter {
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 50px;
   color: black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .weather-app {
   margin: 20px auto;
   border-radius: 5px;
 }
-#city-input{
-  background-color: #FFFDD0;
+#city-input {
+  background-color: #fffdd0;
 }
 .overview {
   margin: 50px auto;
@@ -79,10 +81,10 @@ li:first-letter {
 }
 .btn {
   background-color: black;
-  color: #FFFDD0;
+  color: #fffdd0;
 }
 .btn:hover {
-  background-color: #FFFDD0;
+  background-color: #fffdd0;
   color: black;
 }
 .weather-temperature .units {
@@ -136,139 +138,4 @@ li:first-letter {
 }
 .weather-forecast-temperatures {
   font-size: 17px;
-}
-
-
-.frame {
-  width: 500px;
-  height: auto;
-  margin: 15% auto 0;
-  position: absolute;
-  width: 100%;
-}
-
-svg {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-.clouds {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  transform: translateZ(0);
-}
-
-.cloud {
-  position: absolute;
-  top: 20%;
-  width: 300px;
-  right: 0;
-  opacity: 1;
-}
-
-.cloud.front {
-  z-index: 9;
-}
-
-.cloud.distant {
-  z-index: 1;
-}
-
-.cloud.background {
-  z-index: 1;
-}
-
-.cloud.smaller {
-  margin-right: 400px;
-  width: 100px;
-  margin-top: 50px;
-}
-
-.cloud.small {
-  margin-right: 200px;
-  width: 150px;
-}
-
-.cloud.big {
-  width: 300px;
-  margin-top: 50px;
-  margin-right: 150px;
-}
-
-.cloud.massive {
-  width: 500px;
-  margin-top: 20px;
-  margin-right: 0px;
-}
-
-.cloud {
-  -webkit-animation-name: cloud-movement;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 8s;
-
-  -moz-animation-name: cloud-movement;
-  -moz-animation-timing-function: linear;
-  -moz-animation-direction: forwards;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-duration: 8s;
-
-  animation-name: cloud-movement;
-  animation-timing-function: linear;
-  animation-direction: forwards;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
-}
-
-.slow {
-  -webkit-animation-duration: 9.2s;
-  -moz-animation-duration: 9.2s;
-  animation-duration: 9.2s;
-}
-
-.slower {
-  -webkit-animation-duration: 11.2s;
-  -moz-animation-duration: 11.2s;
-  animation-duration: 11.2s;
-}
-
-.slowest {
-  -webkit-animation-duration: 13.5s;
-  -moz-animation-duration: 13.5s;
-  animation-duration: 13.5s;
-}
-
-.super-slow {
-  -webkit-animation-duration: 20.5s;
-  -moz-animation-duration: 20.5s;
-  animation-duration: 20.5s;
-}
-
-@-webkit-keyframes cloud-movement {
-  0% {
-    opacity: 0.1;
-    -webkit-transform: translateX(300px);
-    -moz-transform: translateX(300px);
-    transform: translateX(300px);
-  }
-  10% {
-
-    opacity: 0.7;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateX(-1000px);
-    -moz-transform: translateX(-1000px);
-    transform: translateX(-1000px);
-  }
 }
