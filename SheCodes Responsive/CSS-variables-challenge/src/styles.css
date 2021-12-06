@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+:root {
+  --background: #662fed;
+  --color: #ffffff;
+  --main-color: #eb629f;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  color: var(--main-color);
+}
+
+h1 h2,
+h3 {
+  color: var(--color);
+  background: var(--background);
+  padding: 10px;
+  border-radius: 20px;
+}
+p {
+  background: var(--main-color);
+  color: var(--color);
+  padding: 30px;
+}
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}

@@ -1,0 +1,15 @@
+* {
+  text-align: center;
+}
+button {
+  padding: 10px;
+  border: 1px solid pink;
+  background: black;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 15px 5px 15px 7px pink;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
