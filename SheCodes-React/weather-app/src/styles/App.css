@@ -1,0 +1,8 @@
+body {
+  background: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.App {
+  max-width: 800px;
+  margin: 60px auto;
+}
